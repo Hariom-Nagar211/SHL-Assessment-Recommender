@@ -121,9 +121,3 @@ Expected result:
 ```text
 6 passed
 ```
-
-## Design Summary
-
-The recommender uses deterministic retrieval and ranking over the local catalog. This keeps recommendations grounded, fast, and easy to test. It avoids hallucinated assessments by serializing recommendation results only from loaded catalog items.
-
-See [approach.md](approach.md) for the detailed design notes and interview discussion points.
